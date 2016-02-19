@@ -1,0 +1,16 @@
+<body style="background-color :#FFEFD5">
+<div style="text-align: center; margin-top: 80px;font-size: 300%; font-family: HG創英角ﾎﾟｯﾌﾟ体">
+<%= @message %>
+</div>
+
+<br>
+<div style="text-align: center; margin-top: 80px;font-size: 200%; font-family: HG創英角ﾎﾟｯﾌﾟ体">
+<a href="http://twitter.com/kira_appli">皆の意見を見てみよう</a>
+</div>
+<div style="text-align: center; margin-top: 80px;font-size: 150%; font-family: HG創英角ﾎﾟｯﾌﾟ体">
+<%= link_to "Twitter ログイン", "/kj/search_form" %>
+</div>
+<div style="text-align: center; margin-top: 50px">
+<%= button_to 'つぶやきたい！', { action: :tweet, params: { text: 'テスト' } }, id: 'button' %>
+</div>
+</body>

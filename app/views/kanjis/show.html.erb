@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Kanji:</strong>
+  <%= @kanji.kanji %>
+</p>
+
+<p>
+  <strong>Kakusu:</strong>
+  <%= @kanji.kakusu %>
+</p>
+
+<p>
+  <strong>Yomi:</strong>
+  <%= @kanji.yomi %>
+</p>
+
+<%= link_to 'Edit', edit_kanji_path(@kanji) %> |
+<%= link_to 'Back', kanjis_path %>
